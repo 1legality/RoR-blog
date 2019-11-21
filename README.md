@@ -70,3 +70,7 @@ Created database 'myapp_test'
 ```
 
 go to http://localhost:3000 on a web browser to see the Rails Welcome.
+
+## Enter the docker terminal
+- Use `docker ps` to get the name of the existing container.
+- Use the command `docker exec -it <container id> /bin/bash` to get a bash shell in the container.
