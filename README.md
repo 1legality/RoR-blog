@@ -1,12 +1,14 @@
 # README
+This is just the ruby on rails tutorial joined to Docker for rapid development.
 
+# Steps
 ## build the projet
 
 ``` bash
 docker-compose run web rails new . --force --no-deps --database=postgresql
 ```
 
-Gibe current user ownership of created files/folders
+Give current user ownership of created files/folders
 ```bash
 sudo chown -R $USER:$USER .
 ```
